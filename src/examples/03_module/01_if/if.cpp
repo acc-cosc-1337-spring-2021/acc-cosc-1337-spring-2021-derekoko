@@ -26,4 +26,26 @@ bool is_even(int num)
 //write code for function named overtime that accepts a double hours and returns true if 
 //hours over 40, false otherwise
 
+bool is_in_range_1_to_10(int num)
+{
+    return num >= 1 && num <= 10; // testing if num is in range
+}
 
+bool is_not_in_range_1_to_10(int num)
+{
+    return (!(num >= 1 && num <= 10)); // this is to test if the number is NOT in range.
+} //the only way an AND compund statement is true if both are TRUE.
+
+//not in range using OR instead of &&
+
+bool is_not_in_range_1_to_10_OR(int num)
+{
+    return num < 1 || num > 10;
+}
+
+// is character a consonant 
+
+bool is_char_a_consonant(char c)
+{
+    return (!(c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'));
+} // not takes precedence
