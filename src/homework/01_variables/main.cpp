@@ -20,7 +20,7 @@ int main()
 
 	tax_amount = get_sales_tax(meal_amount);
 
-	cout<<"Enter the percent tip here without the percent sign (No decimals): ";
+	cout<<"Enter the percent tip here without the percent sign decimals: ";
 	cin>>tip_rate;
 
 	tip_amount = get_tip_amount(meal_amount, tip_rate);
