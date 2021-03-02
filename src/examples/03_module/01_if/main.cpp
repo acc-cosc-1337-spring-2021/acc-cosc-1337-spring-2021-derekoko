@@ -28,3 +28,16 @@ int main()
 
 	return 0;
 }
+
+
+//immediate if statement. (or shortcut if, else)
+/*
+int main()
+{
+	auto num = 5;
+
+	cout<<(num <= 5 ? "green" :"blue");
+
+	return 0;
+}
+*/

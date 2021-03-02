@@ -8,8 +8,9 @@ int sum_of_squares(int num)
     auto sum = 0;
     auto index = 1;
 
-    while(index <= num)
+    while(index <= num) //while loop does not require a semi colon. with semi colon, it turns it to a null statement.
     {
+        //auto val = 1; if declare a variable in the block, it's only part of the while block. no where else outside.
         sum = sum + index * index;
         index++;
     }
