@@ -13,16 +13,3 @@ int factorial(int num)
 
     return fact;
 }
-
-/*void prompt_user()
-{
-    char choice;
-
-    do
-    {
-        cout<<"Type Y to continue N to exit: ";
-        cin>> choice;
-
-    }
-    while(choice =='y' || choice == 'Y');
-}*/
