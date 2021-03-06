@@ -12,7 +12,7 @@ int main()
 	int value;
 
 	//prompt user for a keyboard number
-	cout<<"etner a number: ";
+	cout<<"enter a number: ";
 	//assign the number to the value variable
 	cin>>value;
 
