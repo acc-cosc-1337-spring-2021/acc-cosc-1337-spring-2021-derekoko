@@ -10,7 +10,11 @@ The function assigns 20 to num1 and 50 to num2
 
 @return does not return a value
 */
-
+void pass_by_val_and_ref(int num1, int& num2)
+{
+    num1 = 20;
+    num2 = 50;
+}
 
 
 /*
@@ -21,3 +25,16 @@ Try to assign a value to num1, generates error.
 
 @return does not return a value
 */
+
+//void pass_by_const_ref(const int& num) //const you cannot modify values. protects data.
+
+
+int calculate_weekly_salary(int salary)
+{
+    return salary / 52;
+}
+
+int calculate_weekly_salary(int hours, int rate)
+{
+    return hours * rate;
+}
